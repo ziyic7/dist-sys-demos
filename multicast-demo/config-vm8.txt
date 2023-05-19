@@ -1,0 +1,9 @@
+8
+node1 sp23-cs425-2001.cs.illinois.edu 1234
+node2 sp23-cs425-2002.cs.illinois.edu 1234
+node3 sp23-cs425-2003.cs.illinois.edu 1234
+node4 sp23-cs425-2004.cs.illinois.edu 1234
+node5 sp23-cs425-2005.cs.illinois.edu 1234
+node6 sp23-cs425-2006.cs.illinois.edu 1234
+node7 sp23-cs425-2007.cs.illinois.edu 1234
+node8 sp23-cs425-2008.cs.illinois.edu 1234

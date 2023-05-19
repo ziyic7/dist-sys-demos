@@ -1,0 +1,30 @@
+Application calls: DEPOSIT h 1
+BALANCES h:1 
+Application calls: DEPOSIT e 9
+BALANCES e:9 h:1 
+Application calls: DEPOSIT n 82
+BALANCES e:9 h:1 n:82 
+Application calls: DEPOSIT z 27
+BALANCES e:9 h:1 n:82 z:27 
+Application calls: DEPOSIT k 77
+BALANCES e:9 h:1 k:77 n:82 z:27 
+Application calls: DEPOSIT d 67
+BALANCES d:67 e:9 h:1 k:77 n:82 z:27 
+Application calls: DEPOSIT s 54
+BALANCES d:67 e:9 h:1 k:77 n:82 s:54 z:27 
+Application calls: TRANSFER h e 1
+BALANCES d:67 e:10 k:77 n:82 s:54 z:27 
+Application calls: DEPOSIT f 95
+BALANCES d:67 e:10 f:95 k:77 n:82 s:54 z:27 
+Application calls: TRANSFER e g 1
+BALANCES d:67 e:9 f:95 g:1 k:77 n:82 s:54 z:27 
+Application calls: DEPOSIT k 2
+BALANCES d:67 e:9 f:95 g:1 k:79 n:82 s:54 z:27 
+Application calls: TRANSFER g p 1
+BALANCES d:67 e:9 f:95 k:79 n:82 p:1 s:54 z:27 
+Application calls: TRANSFER k c 62
+BALANCES c:62 d:67 e:9 f:95 k:17 n:82 p:1 s:54 z:27 
+Application calls: DEPOSIT e 18
+BALANCES c:62 d:67 e:27 f:95 k:17 n:82 p:1 s:54 z:27 
+Application calls: DEPOSIT t 88
+BALANCES c:62 d:67 e:27 f:95 k:17 n:82 p:1 s:54 t:88 z:27 
